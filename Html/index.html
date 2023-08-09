@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Extension</title>
+
+
+    <style>
+        @media (prefers-color-scheme:light){
+            body{
+                background-color: white;
+                color: black;
+            }
+        }
+        @media (prefers-color-scheme:dark){
+            body{
+                background-color: #2f2d2d;
+                color: #fff;
+                
+            }
+            a {
+                color: rgb(160, 196, 240);
+            }
+        }
+    </style>
+    
+
+</head>
+<body>
+
+    <form action="https://www.youtube.com/results?search_query=oe">
+        <label for="youtube">For Youtube Search</label> <br> <br>
+
+        <input type="text" placeholder="Search in Youtube" name="search_query" id="youtube"> <br><br>
+
+        <button>Search</button>
+
+    </form> <br><br><hr>
+
+    <form action="https://www.google.com/search?q=h">
+
+        <label for="google">For Google Search</label> <br><br>
+        <input type="text" placeholder="Search in Google " name="q" id="google"> <br><br>
+
+        <button>Search</button>
+    </form>
+    
+</body>
+</html>
